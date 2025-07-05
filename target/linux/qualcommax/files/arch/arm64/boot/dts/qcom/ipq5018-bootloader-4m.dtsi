@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/ {
+	reserved-memory {
+		bootloader@4a800000 {
+			reg = <0x0 0x4a800000 0x0 0x400000>;
+			no-map;
+		};
+	};
+};
