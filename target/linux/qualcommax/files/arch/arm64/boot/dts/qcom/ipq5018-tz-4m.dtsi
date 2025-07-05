@@ -1,0 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+&tz_region {
+    reg = <0x0 0x4ac00000 0x0 0x00400000>;
+};
